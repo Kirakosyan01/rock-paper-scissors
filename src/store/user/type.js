@@ -1,0 +1,1 @@
+export const ENTER_HAND_CHOICE = "ENTER_HAND_CHOICE";

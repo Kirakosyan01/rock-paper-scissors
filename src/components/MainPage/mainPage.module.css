@@ -1,0 +1,87 @@
+.userChoiceAnimation {
+  width: 500px;
+  p {
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.userAndBotAnimations {
+  display: flex;
+}
+.userChoiceButtons {
+  display: flex;
+  margin-bottom: 40px;
+}
+.RockButton {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 6px 15px;
+  font-size: 17px;
+  color: #fff;
+  background-color: #43b63f;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #85dd82;
+  }
+}
+.ScissorsButton {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 6px 15px;
+  font-size: 17px;
+  color: #fff;
+  background-color: #43b63f;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #85dd82;
+  }
+}
+.PaperButton {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 6px 15px;
+  font-size: 17px;
+  color: #fff;
+  background-color: #43b63f;
+  font-weight: 600;
+  margin-right: 10px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: #85dd82;
+  }
+}
+.handChoice {
+  width: 21px;
+  height: 21px;
+}
+.animationDotted {
+  display: flex;
+  align-items: center;
+  font-size: 72px;
+  font-weight: 600;
+}
